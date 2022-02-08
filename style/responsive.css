@@ -1,0 +1,41 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .livro-principal .titulo {
+        margin-top: 2.5%;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .botao {      
+        margin-top: 0px;
+        width: 300px;
+        
+        padding: 5px 15px;
+        margin-right: 0px;
+        font-size: 12px;
+    
+        cursor: pointer;
+        transition: .4s ease all;
+
+        
+    }
+    
+    header nav {
+       margin-bottom: 15px;
+    }
+
+    header .logo {
+      margin-top: 15px;
+    }
+}
+
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
